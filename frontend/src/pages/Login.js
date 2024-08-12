@@ -1,11 +1,14 @@
 import React from 'react'
 
-const SignUp = () => {
+const Login = () => {
   return (
+    <div className="min-h-full h-screen flex items-center justify-center py-12 px-2 sm:px-6 lg:px-8 bg-white">
+    <div className="max-w-md w-full space-y-8">
+
     <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
       <div class="md:mx-auto md:w-full md:max-w-md">
         <img class="mx-auto h-10 w-auto" src="https://ik.imagekit.io/pibjyepn7p9/Lilac_Navy_Simple_Line_Business_Logo_CGktk8RHK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1649962071315" alt="Your Company" />
-        <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Sign Up to your account</h2>
+        <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Sign in to your account</h2>
       </div>
 
       <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
@@ -29,13 +32,13 @@ const SignUp = () => {
             </div>
           </div>
           <div>
-            <button type="submit" class="flex w-full justify-center rounded-md bg-purple-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign Up</button>
+            <button type="submit" class="flex w-full justify-center rounded-md bg-purple-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign in</button>
           </div>
 
         </form>
         <div class="mt-8 flex items-center justify-between">
           <span class="border-b w-1/5 lg:w-1/4"></span>
-          <a href="#" class="text-xs text-center text-gray-500 uppercase">or signup with email</a>
+          <a href="#" class="text-xs text-center text-gray-500 uppercase">or login with email</a>
           <span class="border-b w-1/5 lg:w-1/4"></span>
         </div>
         <a href="#" class="flex items-center justify-center mt-8 text-white rounded-lg shadow-md hover:bg-gray-100">
@@ -47,7 +50,7 @@ const SignUp = () => {
               <path d="M36.3425 16.7358H35V16.6667H20V23.3333H29.4192C28.7592 25.1975 27.56 26.805 26.0133 27.9758C26.0142 27.975 26.015 27.975 26.0158 27.9742L31.1742 32.3392C30.8092 32.6708 36.6667 28.3333 36.6667 20C36.6667 18.8825 36.5517 17.7917 36.3425 16.7358Z" fill="#1976D2" />
             </svg>
           </div>
-          <h1 class="px-4 py-3 w-5/6 text-center text-gray-600 font-bold">Sign Up with Google</h1>
+          <h1 class="px-4 py-3 w-5/6 text-center text-gray-600 font-bold">Sign in with Google</h1>
         </a>
 
         <p class="mt-10 text-center text-sm text-gray-500">
@@ -56,8 +59,10 @@ const SignUp = () => {
         </p>
       </div>
     </div>
+    </div>
+    </div>
 
   )
 }
 
-export default SignUp
+export default Login

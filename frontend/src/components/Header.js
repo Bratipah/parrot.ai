@@ -4,7 +4,8 @@ import SignUp from '../pages/Signup';
 
 export default function Header() {
     return (
-        <div className="mb-10">
+
+        <div className="mb-10 ">
             <div className="flex justify-center text-center">
                 <img
                     alt=""

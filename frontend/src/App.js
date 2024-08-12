@@ -9,11 +9,11 @@ import LoginPage from './pages/Login';
 import { Homepage } from './pages/Homepage';
 import { Navbar } from './components/Navbar';
 import { Courses } from './pages/Courses';
+import Chat from './components/chat';
 
 function App() {
   return (
-    <div className="min-h-full h-screen items-center justify-center py-12 px-4 sm:px-6 lg:px-8 bg-white">
-    <div className="max-w-md w-full space-y-8">
+    
      <BrowserRouter>
         <Routes>
           
@@ -21,10 +21,11 @@ function App() {
             <Route path="/login" element={<LoginPage/>} />
             <Route path="/signup" element={<SignupPage/>} />
             <Route path="/courses" element={<Courses/>} />
+            <Route path="/chat" element={<Chat/>} />
         </Routes>
       </BrowserRouter>
-    </div>
-  </div>
+    
+ 
   );
 }
 
